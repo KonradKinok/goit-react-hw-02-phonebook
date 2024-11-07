@@ -1,5 +1,12 @@
 @import-normalize;
 /* bring in normalize.css styles */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 
 body {
     margin: 0 40px;
@@ -38,4 +45,8 @@ img {
     display: block;
     max-width: 100%;
     height: auto;
+}
+
+a {
+    text-decoration: none;
 }
